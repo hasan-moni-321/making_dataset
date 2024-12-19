@@ -20,3 +20,21 @@ Making dataset for training/fine-tuning LLMs model
 ## Front-End View
 
 ![alt text](https://github.com/hasan-moni-321/making_dataset/blob/main/images/Screenshot%20from%202024-12-19%2022-19-55.png) 
+
+## Sample Input 
+1. AI in education
+2. AI in Healthcare
+3. RAG(Retrieval Augmented Generation)
+4. AI
+5. NLP
+6. AI in Business
+
+## Output 
+provide a CSV and a json file dataset in the datasets directory. Where 2 columns in csv file, one for Questions and one for Answers. There are only ten rows for each dataset. We can generate more and more row as we want. I make a 10 rows sample dataset because of the simplicity and for quick answer/output/dataset. Same dataset/data in the json file what had in the csv file. 
+We can downlaod both the dataset by clicking "Download Latest Files" button. 
+
+## How to improve accuracy
+
+
+## Note: 
+This is not a production grade application building. For production grade application need so much file and also need huge number of coding line for logging, error handling, setup, pipeline, CI, CD tools, Docker, DockerHub, Github Action, Cloud Service. Within 5 days it is impossible to build a production grade application as I am doing a full time job. 
