@@ -2,7 +2,7 @@
 Making dataset for training/fine-tuning LLMs model
 </h1>
 
-## how to run the project  
+## How to run the project  
 1. Open the terminal of your local pc and run the below code.  
    git clone https://github.com/hasan-moni-321/making_dataset.git  
 2. Change your current directory to Agent directory using below code.    
@@ -16,3 +16,7 @@ Making dataset for training/fine-tuning LLMs model
 6. And finally run the application using below code.  
 7. streamlit run main.py      
 
+
+## Front-End View
+
+![alt text](https://github.com/hasan-moni-321/making_dataset/blob/main/images/Screenshot%20from%202024-12-19%2022-19-55.png) 
