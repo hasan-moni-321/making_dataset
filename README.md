@@ -34,9 +34,17 @@ provide a CSV and a json file dataset in the datasets directory. Where 2 columns
 We can downlaod both the dataset by clicking "Download Latest Files" button. 
 
 ## Technology Used  
+1. LangFlow (for agent)
+2. Pandas (for data preprocessing)
+3. Streamlit (for frontend)
+4. Groq (API for LLMs model)
+5. Llama-3.1-8b-instant (for large language model)
 
 ## How to improve accuracy
-
+1. use Google search API
+2. use better model like ChatGPT40, Llama3-70B
+3. Youtube API and Web search
+4. GPT pro 
 
 ## Note: 
 This is not a production grade application building. For production grade application need so much file and also need huge number of coding line for logging, error handling, setup, pipeline, CI, CD tools, Docker, DockerHub, Github Action, Cloud Service. Within 5 days it is impossible to build a production grade application as I am doing a full time job. 
