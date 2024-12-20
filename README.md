@@ -40,11 +40,33 @@ We can downlaod both the dataset by clicking "Download Latest Files" button.
 4. Groq (API for LLMs model)
 5. Llama-3.1-8b-instant (for large language model)
 
+## Challenges 
+1. Proper collaboration of multi agent for generating proper question and answer.
+2. Bigger csv and json dataset handling within a short time.
+
+## System Achitecture 
+1. Two LangFlow agent created in DataStax. One for Question Generation and another one for Answer generation.    I accessed the two agent using LangFlow API in our application. 
+2. Three function based agent created. One "Data Cleaning Agent" is used for cleaing the dataset/text in both    questions and answers columns. 2nd one is "Data Formatter Agent" used for formatting the dataset for       
+   example, dataframe cration from the dictionary. 3rd one "Dataset validator agent" is created for 
+   validating the whole dataset within a short time.
+3. Other functional agents like log_activity, logging_visualization, get_latest_files, create_zip_file,       
+   data_quality_report, save_dataset_and_report and finally run_flow are created for backend management.
+4. After Generating datasets will store in datasets directory in our applicatin.
+5. For downloading the csv and json dataset from the UI click "Download Latest Files" button. Both the file will automatically download as a zip file. 
+
 ## How to improve accuracy
 1. use Google search API
 2. use better model like ChatGPT40, Llama3-70B
 3. Youtube API and Web search
-4. GPT pro 
+4. GPT pro
+
+## Future Task 
+1. Database for storing the data. For example Vector DataBase.
+2. Better UI using HTML, CSS, Bootstrap, Django
+3. User Authentication
+4. Analytics Dashboard
+5. Collecting more data using additional Data Source like Google Search API, Youtube, LinkedIn, Social Media
+6. Production base code, Dockerize application, building docker image, CI/CD pipeline, Github Action.  
 
 ## Note: 
 This is not a production grade application building. For production grade application need so much file and also need huge number of coding line for logging, error handling, setup, pipeline, CI, CD tools, Docker, DockerHub, Github Action, Cloud Service. Within 5 days it is impossible to build a production grade application as I am doing a full time job. 
